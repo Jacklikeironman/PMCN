@@ -8,6 +8,9 @@ motion compensation for an independent view. By cascading multiple PMCBs, parall
 ![img](figs/PMCN.png)
 
 ### Dependencies 
+- Pytorch >= 1.4.0
+- basicsr == 1.3.4.6
+- ddf == 1.0
 
 ### Data Preparation
 
