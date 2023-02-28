@@ -19,10 +19,7 @@ We constructed a new dataset named Stereo Foggy Video Cityscapes, which is exten
 
 ### Testing
 Firstly, we download the pretrained models and save them to the folder `checkpoints`.
-#### Google Driver
-- [Fog intensity = 0.005](https://drive.google.com/file/d/1OPqSjr13v-Ur-6BfH-fDqMlPtEMxCdCN/view?usp=sharing)
-- [Fog intensity = 0.01](https://drive.google.com/file/d/1Xk1Xfef37XdBq4kMOI9Y59CSUOi25zVk/view?usp=sharing)
-- [Fog intensity = 0.02](https://drive.google.com/file/d/1Wtn6OQ7WlwAal2oZZM_5wu7cXv8O4Pj6/view?usp=sharing)
+[Google Driver](https://drive.google.com/drive/folders/1Q9KCSO8Tn593PC2kPNBS0Wc-DzwSJYRK?usp=sharing)
+[百度云盘](https://pan.baidu.com/s/11RkA8476AOeOoPkcy8_d_Q) password: 82qr
 
-If you have trouble in accessing the Google drive, please use [百度云盘](https://pan.baidu.com/s/11RkA8476AOeOoPkcy8_d_Q) password: 82qr
 ### References
