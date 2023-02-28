@@ -7,11 +7,11 @@ motion compensation for an independent view. By cascading multiple PMCBs, parall
 
 ![img](figs/PMCN.png)
 
-###Contents
+### Contents
 - Training (Coming Soon)
 - Testing 
 
-###Training (Coming Soon)
+### Training (Coming Soon)
 
-###Testing
+### Testing
 
