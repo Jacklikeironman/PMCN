@@ -6,4 +6,4 @@ parallax-motion collaboration block (PMCB) consisting of a parallax interaction 
 motion compensation for an independent view. By cascading multiple PMCBs, parallax and motion information can be fully extracted and integrated for stereo video dehazing. Second, we propose a dynamic residual block (DRB), which enables the network to be content-adaptive to boost restoration performance. In addition, we construct a benchmark dataset, named Stereo Foggy Video Cityscapes dataset, suitable for the SVD task. Quantitative and qualitative results demonstrate that the proposed PMCN outperforms stateof-the-art methods in terms of performance and processing speed.
 
 ![][PMCN]
-[PMCN]: 
+[PMCN]: https://github.com/Jacklikeironman/PMCN/figs/PMCN.png
