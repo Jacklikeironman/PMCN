@@ -18,6 +18,6 @@ We constructed a new dataset named Stereo Foggy Video Cityscapes, which is exten
 [Test Set](https://pan.baidu.com/s/1qFheJIZvQBbB-NBjnqwRcw)     password: n7of
 
 ### Testing
-Firstly, we download the pretrained models and save them to the folder > checkpoints.
+Firstly, we download the pretrained models and save them to the folder >> checkpoints.
 
 ### References
