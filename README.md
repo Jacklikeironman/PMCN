@@ -5,4 +5,4 @@ This repository is the official PyTorch implementation of PMCN:  Parallax Motion
 parallax-motion collaboration block (PMCB) consisting of a parallax interaction module (PIM) and two motion alignment modules (MAM). PIM aims to find short- and long-range binocular parallax correspondences to handle different disparity variations. MAM explores the correlation between temporally adjacent frames to implement precise
 motion compensation for an independent view. By cascading multiple PMCBs, parallax and motion information can be fully extracted and integrated for stereo video dehazing. Second, we propose a dynamic residual block (DRB), which enables the network to be content-adaptive to boost restoration performance. In addition, we construct a benchmark dataset, named Stereo Foggy Video Cityscapes dataset, suitable for the SVD task. Quantitative and qualitative results demonstrate that the proposed PMCN outperforms stateof-the-art methods in terms of performance and processing speed.
 
-![img](https://github.com/Jacklikeironman/PMCN/tree/main/figs/PMCN.png)
+![img](figs/PMCN.png)
