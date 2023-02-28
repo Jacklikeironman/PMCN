@@ -7,7 +7,7 @@ motion compensation for an independent view. By cascading multiple PMCBs, parall
 
 ![img](figs/PMCN.png)
 
-### Dependencies and Installation 
+### Dependencies 
 
 ### Training (Coming Soon)
 
