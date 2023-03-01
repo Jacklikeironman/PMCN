@@ -22,14 +22,9 @@ class SKN(nn.Module):
         self.M = M
 
         self.global_pool = nn.AdaptiveAvgPool2d(1)
-        # self.max_pool = nn.AdaptiveMaxPool2d(1)
         self.fc1=nn.Sequential(nn.Conv2d(self.n_feature,self.n_feature//self.down_ratio,1,bias=False),
-                            nn.LeakyReLU(inplace=True))
+                                nn.LeakyReLU(inplace=True))
         self.fc2=nn.Conv2d(n_feature//self.down_ratio,self.n_feature*self.M,1,1,bias=False)
-
-        # self.fc3=nn.Sequential(nn.Conv2d(self.n_feature,self.n_feature//self.down_ratio,1,bias=False),
-        #                     nn.LeakyReLU(inplace=True))
-        # self.fc4=nn.Conv2d(n_feature//self.down_ratio,self.n_feature,1,1,bias=False)
 
         self.softmax=nn.Softmax(dim=1)
 
@@ -111,7 +106,6 @@ class Parallax_Interaction_Module(nn.Module):
         B, C, H, W = Q.shape
         Q = Q.permute(0, 2, 3, 1).contiguous().view(B*H, W, -1)                             # B * H * W * C
         K = K.permute(0, 2, 1, 3).contiguous().view(B*H, -1, W)                             # B * H * C * W
-
         if self.num_window == 1:       
             score = torch.bmm(Q, K)                                                         # (B * H) * W * W
             score_T = score.permute(0,2,1)                                                  # (B * H) * W * W                                                   
@@ -135,7 +129,8 @@ class Parallax_Interaction_Module(nn.Module):
             left_feat_warped = self.relu(self.outconv_left(torch.bmm(M_right_to_left, V_right).contiguous().view(B, H, self.num_window, self.window_size, C).permute(0, 4, 1, 2, 3).contiguous().view(B, C, H, W))) # B * 2C * H * W 
             V_left = V_left.view(B, C, H, self.num_window, self.window_size).permute(0, 2, 3, 4, 1).contiguous().view(-1, self.window_size, C)                        # (B * H * W // win) * Win * C
             right_feat_warped = self.relu(self.outconv_left(torch.bmm(M_right_to_left, V_right).contiguous().view(B, H, self.num_window, self.window_size, C).permute(0, 4, 1, 2, 3).contiguous().view(B, C, H, W)))# B * 2C * H * W
-        # short interact
+        
+        # short-range interact
         # mixed_feat [B, 2C, H, W]
         mixed_feat = self.body(self.head_conv(torch.cat([left_feat, right_feat], dim=1)))
 
