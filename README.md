@@ -19,7 +19,7 @@ We constructed a new dataset named Stereo Foggy Video Cityscapes, which is exten
 
 ## Test
 Firstly, we download the pretrained models and save them to the folder `checkpoints`.
-- [Google Driver](https://drive.google.com/drive/folders/1Q9KCSO8Tn593PC2kPNBS0Wc-DzwSJYRK?usp=sharing)
+- [Google Drive](https://drive.google.com/drive/folders/1Q9KCSO8Tn593PC2kPNBS0Wc-DzwSJYRK?usp=sharing)
 - [百度云盘](https://pan.baidu.com/s/11RkA8476AOeOoPkcy8_d_Q) password: 82qr
 
 You can test different fog intensity by changing the `--fi` (fog intensity) in command line.
