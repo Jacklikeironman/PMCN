@@ -1,5 +1,5 @@
 # PMCN: Parallax Motion Collaboration Network for Efficient Stereo Video Dehazing 
-This repository is the official PyTorch implementation of PMCN:  Parallax Motion Collaboration Network for Efficient Stereo Video Dehazing. SwinIR ahcieves state-of-the-art performance in the stereo video dehazing (SVD) task.
+This repository is the official PyTorch implementation of PMCN:  Parallax Motion Collaboration Network for Efficient Stereo Video Dehazing. PMCN ahcieves state-of-the-art performance in the stereo video dehazing (SVD) task.
 
 > Recently, learning-based stereo dehazing has received more and more attention, but rare studies have focused on the stereo video dehazing (SVD) task. In this paper, we propose a parallax-motion collaboration network (PMCN) to perform haze removal for stereo videos by utilizing joint parallax and motion information. First, we propose a
 parallax-motion collaboration block (PMCB) consisting of a parallax interaction module (PIM) and two motion alignment modules (MAM). PIM aims to find short- and long-range binocular parallax correspondences to handle different disparity variations. MAM explores the correlation between temporally adjacent frames to implement precise
