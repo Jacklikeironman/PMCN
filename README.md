@@ -9,8 +9,8 @@ motion compensation for an independent view. By cascading multiple PMCBs, parall
 
 ## Dependencies 
 - Pytorch >= 1.4.0
-- basicsr >= 1.3.4.6 (https://github.com/XPixelGroup/BasicSR)
-- ddf == 1.0 (https://github.com/theFoxofSky/ddfnet)
+- [basicsr](https://github.com/XPixelGroup/BasicSR) >= 1.3.4.6 
+- [ddf](https://github.com/theFoxofSky/ddfnet) == 1.0 
 
 ## Data Preparation
 We constructed a new dataset named Stereo Foggy Video Cityscapes, which is extended from the [Cityscapes sequences dataset](https://www.cityscapes-dataset.com/). We apply synthetic fog to these clean stereo video pairs as in [Foggy Cityscapes](https://github.com/sakaridis/fog_simulation-SFSU_synthetic/). Here, we provide the testing dataset for performance evaluation. 
