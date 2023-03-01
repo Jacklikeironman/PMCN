@@ -35,4 +35,6 @@ python test.py -g 0 evaluate --fi 0.01 -o
 python test.py -g 0 evaluate --fi 0.02 -o
 ```
 The results should be the same as that in `logs_fi/test.log`.
+### Train
+Coming soon
 ### References
