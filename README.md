@@ -22,9 +22,17 @@ Firstly, we download the pretrained models and save them to the folder `checkpoi
 - [Google Driver](https://drive.google.com/drive/folders/1Q9KCSO8Tn593PC2kPNBS0Wc-DzwSJYRK?usp=sharing)
 - [百度云盘](https://pan.baidu.com/s/11RkA8476AOeOoPkcy8_d_Q) password: 82qr
 
-Fog intensity = 0.005
+You can test different fog intensity by changing the `--fi` (fog intensity) in command line.
 ```
+## do not need output
 python test.py -g 0 evaluate --fi 0.005 
-```
+python test.py -g 0 evaluate --fi 0.01 
+python test.py -g 0 evaluate --fi 0.02
 
+## need output
+python test.py -g 0 evaluate --fi 0.005 -o
+python test.py -g 0 evaluate --fi 0.01 -o
+python test.py -g 0 evaluate --fi 0.02 -o
+```
+The results should be the same as that in `logs_fi/test.log`.
 ### References
