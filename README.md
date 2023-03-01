@@ -7,17 +7,17 @@ motion compensation for an independent view. By cascading multiple PMCBs, parall
 
 ![img](figs/PMCN.png)
 
-### Dependencies 
+## Dependencies 
 - Pytorch >= 1.4.0
 - basicsr >= 1.3.4.6 (https://github.com/XPixelGroup/BasicSR)
 - ddf == 1.0 (https://github.com/theFoxofSky/ddfnet)
 
-### Data Preparation
+## Data Preparation
 We constructed a new dataset named Stereo Foggy Video Cityscapes, which is extended from the [Cityscapes sequences dataset](https://www.cityscapes-dataset.com/). We apply synthetic fog to these clean stereo video pairs as in [Foggy Cityscapes](https://github.com/sakaridis/fog_simulation-SFSU_synthetic/). Here, we provide the testing dataset for performance evaluation. 
 
 [Test Set](https://pan.baidu.com/s/1qFheJIZvQBbB-NBjnqwRcw)     password: n7of
 
-### Test
+## Test
 Firstly, we download the pretrained models and save them to the folder `checkpoints`.
 - [Google Driver](https://drive.google.com/drive/folders/1Q9KCSO8Tn593PC2kPNBS0Wc-DzwSJYRK?usp=sharing)
 - [百度云盘](https://pan.baidu.com/s/11RkA8476AOeOoPkcy8_d_Q) password: 82qr
@@ -35,9 +35,9 @@ python test.py -g 0 evaluate --fi 0.01 -o
 python test.py -g 0 evaluate --fi 0.02 -o
 ```
 The results should be the same as that in `logs_fi/test.log`.
-### Train
+## Train
 ***Coming soon***
-### References
+## References
 [1] Marius Cordts, Mohamed Omran, Sebastian Ramos, Timo Rehfeld, Markus Enzweiler, Rodrigo Benenson, Uwe Franke, Stefan Roth, and Bernt Schiele. The cityscapes dataset for semantic urban scene understanding. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 3213–3223, 2016. 5
 
 [2] Jifeng Dai, Haozhi Qi, Yuwen Xiong, Yi Li, Guodong Zhang, Han Hu, and Yichen Wei. Deformable convolutional networks. In Proceedings of the IEEE international conference on computer vision, pages 764–773, 2017. 1, 2, 5
@@ -48,5 +48,5 @@ The results should be the same as that in `logs_fi/test.log`.
 
 [5] Achanta R , Shaji A , Smith K , et al. SLIC Superpixels Compared to State-of-the-Art Superpixel Methods[J]. IEEE Transactions on Pattern Analysis & Machine Intelligence, 2012, 34(11):2274-2282.
 
-### License and Acknowledgement
+## License and Acknowledgement
 This project is released under the Apache 2.0 license. The deformable convolution layer and the dynamic convolution layer are implemented by [BasicSR](https://github.com/XPixelGroup/BasicSR) and [DDFNet](https://github.com/theFoxofSky/ddfnet). Thanks for their awesome works.
