@@ -13,7 +13,7 @@ motion compensation for an independent view. By cascading multiple PMCBs, parall
 - [ddf](https://github.com/theFoxofSky/ddfnet) == 1.0 
 
 ## Data Preparation
-We constructed a new dataset named **Stereo Foggy Video Cityscapes**, which is extended from the [Cityscapes sequences dataset](https://www.cityscapes-dataset.com/). We apply synthetic fog to these clean stereo video pairs as in [Foggy Cityscapes](https://github.com/sakaridis/fog_simulation-SFSU_synthetic/). There are 2973 stereo video clips in the training dataset and 453 stereo video clips in the test dataset. Each video clip contains 7 consecutive frames with the size of 1024 × 2048. Here, we provide the testing dataset for performance evaluation. 
+We constructed a new dataset named **Stereo Foggy Video Cityscapes**, which is extended from the [Cityscapes sequences dataset](https://www.cityscapes-dataset.com/). We apply synthetic fog to these clean stereo video pairs as in [Foggy Cityscapes](https://github.com/sakaridis/fog_simulation-SFSU_synthetic/). There are 2973 stereo video clips in the training dataset and 453 stereo video clips in the test dataset. Each video clip contains 7 consecutive frames with the size of 1024 × 2048. Here, we provide the test dataset for performance evaluation. 
 
 [Test Set](https://pan.baidu.com/s/1kEPP0XMzO2Xr9Jj2WLbXWQ)     password: 4low
 
