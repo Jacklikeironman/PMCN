@@ -48,3 +48,5 @@ Coming soon
 
 [5] Achanta R , Shaji A , Smith K , et al. SLIC Superpixels Compared to State-of-the-Art Superpixel Methods[J]. IEEE Transactions on Pattern Analysis & Machine Intelligence, 2012, 34(11):2274-2282.
 
+### License and Acknowledgement
+This project is released under the Apache 2.0 license. The deformable convolution layer and the dynamic convolution layer are implemented by [BasicSR](https://github.com/XPixelGroup/BasicSR) and [DDFNet](https://github.com/theFoxofSky/ddfnet). Thanks for their awesome works.
