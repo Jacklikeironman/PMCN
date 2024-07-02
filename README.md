@@ -18,22 +18,7 @@ We constructed a new dataset named **Stereo Foggy Video Cityscapes**, which is e
 [Test Set](https://pan.baidu.com/s/1kEPP0XMzO2Xr9Jj2WLbXWQ)     password: 4low (56.9 GB)
 
 ## Test
-Firstly, we download the pretrained models and save them to the folder `checkpoints`.
-- [Google Drive](https://drive.google.com/drive/folders/1Q9KCSO8Tn593PC2kPNBS0Wc-DzwSJYRK?usp=sharing)
-- [百度云盘](https://pan.baidu.com/s/11RkA8476AOeOoPkcy8_d_Q) password: 82qr
-
-You can test different fog intensity by changing the `--fi` (fog intensity) in command line.
-```
-## do not need output
-python test.py -g 0 evaluate --fi 0.005 
-python test.py -g 0 evaluate --fi 0.01 
-python test.py -g 0 evaluate --fi 0.02
-
-## need output
-python test.py -g 0 evaluate --fi 0.005 -o
-python test.py -g 0 evaluate --fi 0.01 -o
-python test.py -g 0 evaluate --fi 0.02 -o
-```
+***Coming soon***
 The results should be the same as that in `logs_fi/test.log`.
 ## Train
 ***Coming soon***
